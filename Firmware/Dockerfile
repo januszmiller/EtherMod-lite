@@ -10,6 +10,8 @@ RUN apt-get install -y gcc-arm-none-eabi
 RUN apt-get install -y libnewlib-arm-none-eabi
 RUN apt-get install -y libstdc++-arm-none-eabi-newlib
 RUN git clone https://github.com/raspberrypi/pico-sdk.git
+RUN cd pico-sdk
+RUN git submodule update --init
 
 VOLUME [ "/project" ]
 
