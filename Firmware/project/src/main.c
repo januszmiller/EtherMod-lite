@@ -1,8 +1,11 @@
-/**
- * Copyright (c) 2020 Raspberry Pi (Trading) Ltd.
- *
- * SPDX-License-Identifier: BSD-3-Clause
- */
+/*H**********************************************************************
+* FILENAME   : main.c
+* AUTHOR     : Janusz Miller
+* START DATE : 05.08.2022
+*
+* DESCRIPTION :
+*       Project entry point.
+*H*/
 
 #include "pico/stdlib.h"
 
